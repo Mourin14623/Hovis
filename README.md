@@ -1,18 +1,21 @@
-# Hovis — Personal Movie Library
+# Hovis — Personal Cinema
 
-A simple browser-based movie library for playing video files selected from your own device.
+A browser-based, local-first movie library.
 
 ## Features
-- Add multiple local video files (MP4 and browser-supported video formats)
-- Search your movie collection during the current session
-- Play videos in a built-in player
-- Remove files from the current session
-- No video uploads or server storage
+- Add local video files (MP4 and other browser-supported formats)
+- Movie library saved in IndexedDB in your browser
+- Search and sort your collection
+- Favorites, Continue Watching, and Finished tabs
+- Playback progress is saved
+- Add custom poster images to movie cards
+- Responsive layout for desktop and mobile
+- No video uploads to a server
 
-## Usage
-Open `index.html` in a modern browser, click **Add movies**, and select your video files.
+## Use
+Open the GitHub Pages site, choose **Add movies**, and select your local files. Use **Poster** on any card to add a custom poster. Favorites and playback progress are saved in the browser.
 
-**Privacy note:** Videos are played from local browser file handles/object URLs and are not uploaded. The library is session-only; reselect files after refreshing or reopening.
+## Storage/privacy
+Movies and poster files are stored in your browser's IndexedDB. They are not uploaded to Hovis. Storage capacity depends on your browser and device. Clearing site data may remove your collection. Use the same browser and device.
 
-## Legal note
-Use this for videos you own or are legally permitted to access.
+Only add media files you own or are legally permitted to use.
